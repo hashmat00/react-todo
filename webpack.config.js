@@ -13,7 +13,8 @@ module.exports = {
   plugins: [
     new webpack.ProvidePlugin({
       '$': 'jquery',
-      'jQuery': 'jquery'
+      'jQuery': 'jquery',
+      "plugins": "transform-object-rest-spread"
     })
   ],
   output: {
